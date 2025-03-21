@@ -19,12 +19,19 @@
                 label{
                     color: white;
                 }
-                .btn-hover{
-                    background-color: rgb(150, 107, 0);
-                }
+                .form-container {
+    background-color: rgba(0, 0, 0, 0.7); 
+    border: 2px solid white; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    width: 300px; 
+}
             </style>
         </head>
         <body background="3.jpg">
+            <div class="form-container">
             <h1>Please Log In</h1>
             <form action="header.html">
                 <label for="uname">User name:</label><br>
@@ -33,5 +40,6 @@
                 <input type="password" id="password" name="password" required><br><br>
                 <input type="submit" value="Login" style="cursor: pointer; background-color: yellow; padding: 10px 20px; ">
             </form>
+            </div>
         </body>
     </html>
